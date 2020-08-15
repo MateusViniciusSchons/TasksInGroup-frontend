@@ -1,0 +1,61 @@
+.task {
+    background-color: #E1DEDE;
+    min-height: 106px;
+    height: 100%;
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding: 10px;
+    color: black;
+}
+
+.task .user-relation {
+    font-size: 14px;
+    width: 100%;
+}
+
+.task .task-title {
+    background-color: #FAFAFA;
+    box-sizing: border-box;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 4px;
+    border-radius: 6px;
+    min-height: 80px;
+    margin-bottom: 10px;
+}
+
+.see-more-button {
+    height: 27px;
+    width: 80px;
+    font-size: 15px;
+    color: #333333;
+    background-color: #EAEFEE;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 1px 1px 4px #BBBBBB;
+}
+
+.see-more-button:hover {
+    background-color: #cdcece;
+    transition: background-color 0.4s;
+    cursor: pointer;
+}
+
+.action-button {
+    height: 28px;
+    width: 70px;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #54747E;
+    color: #FFFFFF;
+    float: right;
+    box-shadow: 1px 1px 4px #BBBBBB;
+
+}
+
+.action-button:hover {
+    background-color: #47636b;
+    transition: background-color 0.4s;
+    cursor: pointer;
+}

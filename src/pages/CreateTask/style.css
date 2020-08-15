@@ -1,0 +1,70 @@
+.voltar {
+    background-color: #fff;
+    width: 175px;
+    height: 53px;
+    margin-left: 21px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 13px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    align-content: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.voltar-icon {
+    height: 100%
+}
+
+.voltar-text {
+    height: 100%;
+    font-size: 20px
+}
+
+.new_task-views {
+    display: grid;
+    align-content: center;
+    align-items: center;
+    justify-content: center
+}
+
+.new_task-form {
+    background-color: #fff;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.new_task-input {
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    box-shadow: none;
+    border: #54747E 1px solid
+
+}
+
+.new_task-input:focus {
+    box-shadow: none;
+    outline: 0
+}
+
+.new_task-button {
+    background-color: #54747E;
+    color: white;
+    padding: 8px 15px;
+    width: 90px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 1px 1px 4px black;
+    float: right;
+    margin-top: 10px
+}

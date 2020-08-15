@@ -1,0 +1,97 @@
+.task_details-voltar {
+    background-color: #fff;
+    width: 175px;
+    height: 53px;
+    margin-left: 21px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 13px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    align-content: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.voltar-icon {
+    height: 100%;
+}
+
+.voltar-text {
+    height: 100%;
+}
+
+.task_details-views{
+    display: grid;
+    justify-content: center
+}
+
+.task_details {
+    background-color: #fff;
+    width: 600px;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.task_details-user_relation {
+    color: black;
+    width: 100%;
+}
+
+.task_details-title {
+    text-align: center
+}
+
+.task_details-description {
+    height: 300px
+}
+
+.task_details-actual-stage {
+    width: 50%;
+    color: black;
+    float: left
+}
+
+.details-stage {
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.action-button-details {
+    background-color: #54747E;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    float: right;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 900px) {
+    .task_details {
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .task_details {
+        width: 400px;
+    }
+
+    .task_details-actual-stage {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .task_details {
+        width: 340px;
+    }
+}
