@@ -26,7 +26,7 @@ export default function Header() {
             </div>
 
             <div className="app">
-                <h1 className="header-title app-name">Prosis Informática - Tarefas</h1>
+                <h1 className="header-title app-name">Sistema de Tarefas</h1>
             </div>
         </header>
     );
